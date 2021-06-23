@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body
+        
+        table(border = 1, class='table')
+            tr
+                th Name
+                th Age
+            each val in mydata
+                tr
+                    td #{val.name}
+                    td #{val.age}
+                    
